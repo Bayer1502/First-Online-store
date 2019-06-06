@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Cart - Cart</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/shop-cart.js"></script>
+</head>
+
+<body>
+ 			<center>
+  <mark>
+    <h1>FootBall Boots Havan</span></h1>
+  </mark> 
+</center>
+</font> 
+<div id="site">
+
+<!--Header-->
+<div class="container">
+<form class="search form-inline my-2 my-lg-0">
+   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+   <button><img src="search.png" height="10" width="10"></button>
+      </form>
+       <!--NavBar-->
+  <!--code for Nav Bar-->
+<ul class="NAV">
+  <!--SearchBar-->
+    <li><a href="HomePage.html">HomePage</a></li>
+<li><a href=" ">Meet the Team</a></li>
+<li><a href=" ">Review</a></li>
+</ul>
+     </div>
+<!--code for image store design-->
+<center>
+<div id="site">
+	<header id="masthead">
+		<center>
+		<img src="coffee Shop.jpg" width="500">
+		</center>
+	</header>
+	<!--code for page break-->
+<h3>サッカー天国</h3>
+	<div id="content">
+		<h1>Your Shopping Cart</h1>
+		<form id="shopping-cart" action="cart.html" method="post">
+		<ul id="shopping-cart-actions">
+				<li>
+					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+				</li>
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="index.html" class="btn">Continue Shopping</a>
+				</li>
+				<li>
+					<a href="checkout.html" class="btn">Go To Checkout</a>
+				</li>
+			</ul>
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col" colspan="2">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Sub Total</strong>: <span id="stotal"></span>
+			</p>
+		</form>
+	</div>
+	
+	
+
+</div>
+
+</body>
+</html>	
